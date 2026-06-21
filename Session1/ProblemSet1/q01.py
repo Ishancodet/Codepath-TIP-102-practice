@@ -14,3 +14,6 @@ Welcome to The Hundred Acre Wood!
 """
 
 # TODO: write your solution here
+def welcome():
+    print("Welcome to The Hundred Acre Wood!")
+welcome()
