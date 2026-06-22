@@ -13,3 +13,10 @@ Example Output:
 """
 
 # TODO: write your solution here
+def doubled(hunny_jars):
+	doubled_list = []
+	for jar in hunny_jars:
+		doubled_list.append(jar * 2)
+	return doubled_list
+hunny_jars = [1, 8, 3]
+print(doubled(hunny_jars))
