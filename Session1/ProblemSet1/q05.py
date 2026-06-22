@@ -15,3 +15,11 @@ Example Output:
 """
 
 # TODO: write your solution here
+def sum_honey(hunny_jars):
+    total = 0
+    for jar in hunny_jars:
+        total += jar
+    return total
+hunny_jars = [2, 3, ]
+print(sum_honey(hunny_jars))
+
