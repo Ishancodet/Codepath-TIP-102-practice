@@ -18,3 +18,7 @@ Welcome to The Hundred Acre Wood Winnie the Pooh! My name is Christopher Robin.
 
 # TODO: write your solution here
 
+def greeting(name):
+    print(f"Welcome to The Hundred Acre Wood {name}! My name is Christopher Robin.")
+greeting("michael")
+greeting("Winnie the Pooh")
