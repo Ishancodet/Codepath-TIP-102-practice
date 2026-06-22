@@ -18,6 +18,3 @@ Welcome to The Hundred Acre Wood Winnie the Pooh! My name is Christopher Robin.
 
 # TODO: write your solution here
 
-def greeting(name,place):
-    print(f"Welcome to The Hundred Acre Wood {name}! My {place} name is Christopher Robin.")
-greeting("Michael" , "CHD")
