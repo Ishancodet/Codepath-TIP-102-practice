@@ -26,3 +26,16 @@ Pooh's To Dos:
 """
 
 # TODO: write your solution here
+
+
+def print_todo_list(Pooh_tasks):
+    print("Pooh's To Dos:")
+    count = 1 
+    for task in Pooh_tasks:
+        print(f"{count}.{task}")
+        count+=1
+Pooh_tasks = ["Count all the bees in the hive", "Chase all the clouds from the sky", "Think", "Stoutness Exercises"]
+print_todo_list(Pooh_tasks)
+            
+
+
