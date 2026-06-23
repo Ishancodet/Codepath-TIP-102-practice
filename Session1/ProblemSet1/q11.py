@@ -20,3 +20,10 @@ Example Output:
 """
 
 # TODO: write your solution here
+def tiggerfy(s):
+    result = ""                              # empty string to build onto
+    for letter in s:
+        if letter.lower() not in "tiger":     # is this letter NOT one of the banned ones?
+            result += letter                   # keep it
+    return result
+print(tiggerfy("sonic"))
