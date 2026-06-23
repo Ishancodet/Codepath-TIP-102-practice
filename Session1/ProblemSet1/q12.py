@@ -15,3 +15,13 @@ Example Output:
 """
 
 # TODO: write your solution here
+def locate_thistles(items):
+    indices = []
+    for i in range(len(items)):
+        if items[i] == "thistle":
+            indices.append(i)
+    return indices
+itmes = ["thistle", "stick", "carrot", "eeyore's tail","thistle"]
+print(locate_thistles(itmes))
+
+
