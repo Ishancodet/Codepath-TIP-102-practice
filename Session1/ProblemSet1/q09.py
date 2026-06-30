@@ -22,11 +22,9 @@ True
 # TODO: write your solution here
 
 def can_pair(item_quantities):
-    for num in item_quantities:
-        if num % 2 != 0:   # odd quantity can't be perfectly paired
+    for item in item_quantities:
+        if item % 2 != 0:
             return False
-    return True
-
-item_quantities = [2, 4, 6, 8]
+        return True 
+item_quantities = [2,4,6,8]
 print(can_pair(item_quantities))
-    

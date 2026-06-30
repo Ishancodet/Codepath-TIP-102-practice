@@ -28,5 +28,5 @@ def count_less_than(race_times,threshold):
     return count 
 race_times = [1, 2, 3, 4, 5, 6]
 print(count_less_than(race_times,5))
-
+    
 

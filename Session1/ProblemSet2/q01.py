@@ -10,3 +10,6 @@ I am vengeance. I am the night. I am Batman!
 """
 
 # TODO: write your solution here
+def batman():
+    print("I am vengeance. I am the night. I am Batman!")
+batman()

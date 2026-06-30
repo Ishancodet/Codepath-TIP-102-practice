@@ -17,11 +17,10 @@ None
 
 """
 
-# TODO: write your solution here
 def get_item(items,x):
     if x < len(items):
         return items[x]
     else:
         return None
 items = ["piglet", "pooh", "roo", "rabbit"]
-print(get_item(items,2))
+print(get_item(items,3))
