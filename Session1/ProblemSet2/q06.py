@@ -13,3 +13,12 @@ Example Output:
 """
 
 # TODO: write your solution here
+def squared(numbers):
+    double_numbers = []
+    for number in numbers:
+        double_numbers.append(number*2)
+    return double_numbers
+numbers = [1, 2, 3]
+print(squared(numbers))
+
+    
