@@ -16,3 +16,6 @@ Example Output:
 """
 
 # TODO: write your solution here
+def madlib(Verb):
+    print(f"I have one power. I never {Verb}")
+madlib("Give up")
