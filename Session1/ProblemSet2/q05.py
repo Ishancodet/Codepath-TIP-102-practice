@@ -15,3 +15,10 @@ Example Output:
 "vengeancedarknessbatman"
 ""
 """
+def concatenate(words):
+    sum_word = ""
+    for word in words:
+        sum_word += word
+    return sum_word
+words = ["vengeance", "darkness", "batman"]
+print(concatenate(words))
