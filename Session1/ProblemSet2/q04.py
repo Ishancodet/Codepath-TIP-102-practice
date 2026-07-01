@@ -16,4 +16,8 @@ Example Output:
 None
 """
 
-# TODO: write your solution here
+def get_last(items):
+        item = items[-1]
+        return item
+items = ["spider man", "batman", "superman", "iron man", "wonder woman", "black adam"]
+print(get_last(items))
